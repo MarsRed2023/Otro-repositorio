@@ -1,0 +1,72 @@
+/* General Body Styles */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4 {
+    font-family: 'Anton', sans-serif;
+    color: #2d2d2d;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0 20px;
+}
+
+/* iFrame Styles */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Special Styles for Technological Dependency Section */
+h1 {
+    color: #FF5733;
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    color: #3498db;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #2ecc71;
+}
+
+/* Adjusting for smaller screens */
+@media (max-width: 768px) {
+    h1, h2, h3, h4 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
